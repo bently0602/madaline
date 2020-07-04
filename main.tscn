@@ -25,17 +25,17 @@ __meta__ = {
 }
 
 [node name="Panel" type="Panel" parent="."]
-margin_right = 1025.0
+margin_right = 400.0
 margin_bottom = 600.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TimeControllerContainer" type="VBoxContainer" parent="Panel"]
-margin_left = 64.3027
-margin_top = 13.1361
-margin_right = 150.303
-margin_bottom = 47.1361
+margin_left = 14.3027
+margin_top = 15.1361
+margin_right = 100.303
+margin_bottom = 49.1361
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
@@ -81,21 +81,21 @@ __meta__ = {
 }
 
 [node name="TimeDisplayContainer" type="HBoxContainer" parent="Panel"]
-margin_left = 317.0
-margin_top = 12.0
-margin_right = 435.0
-margin_bottom = 46.0
+margin_left = 267.0
+margin_top = 15.0
+margin_right = 385.0
+margin_bottom = 49.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-alignment = 1
+alignment = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="HourLabelValue" type="Label" parent="Panel/TimeDisplayContainer"]
-margin_left = 39.0
+margin_left = 78.0
 margin_top = 10.0
-margin_right = 47.0
+margin_right = 86.0
 margin_bottom = 24.0
 text = "$"
 align = 2
@@ -105,9 +105,9 @@ __meta__ = {
 }
 
 [node name="TimeSeperatorLabel" type="Label" parent="Panel/TimeDisplayContainer"]
-margin_left = 51.0
+margin_left = 90.0
 margin_top = 10.0
-margin_right = 55.0
+margin_right = 94.0
 margin_bottom = 24.0
 text = ":"
 align = 2
@@ -117,9 +117,9 @@ __meta__ = {
 }
 
 [node name="MinuteLabelValue" type="Label" parent="Panel/TimeDisplayContainer"]
-margin_left = 59.0
+margin_left = 98.0
 margin_top = 10.0
-margin_right = 67.0
+margin_right = 106.0
 margin_bottom = 24.0
 text = "$"
 align = 2
@@ -129,9 +129,9 @@ __meta__ = {
 }
 
 [node name="TimeDesignationLabel" type="Label" parent="Panel/TimeDisplayContainer"]
-margin_left = 71.0
+margin_left = 110.0
 margin_top = 10.0
-margin_right = 79.0
+margin_right = 118.0
 margin_bottom = 24.0
 text = "$"
 align = 2
@@ -152,10 +152,10 @@ __meta__ = {
 }
 
 [node name="Panel" type="Panel" parent="Panel"]
-margin_left = 64.0
-margin_top = 64.0
-margin_right = 435.0
-margin_bottom = 529.0
+margin_left = 14.0
+margin_top = 65.0
+margin_right = 385.0
+margin_bottom = 530.0
 custom_styles/panel = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
